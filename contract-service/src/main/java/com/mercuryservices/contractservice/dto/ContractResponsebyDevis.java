@@ -1,6 +1,5 @@
 package com.mercuryservices.contractservice.dto;
 
-import com.mercuryservices.contractservice.model.Devis;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,13 +11,13 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ContractRequest {
+/**This classe created to get Contract by devis and remove devis from response**/
+public class ContractResponsebyDevis {
+
     private Long idContract;
     private String contractId;
     private Date datecreationContract;
     private String libelleContract;
 
-    /***Devis***/
-    private Devis devis;
-    private String devisId;
+
 }

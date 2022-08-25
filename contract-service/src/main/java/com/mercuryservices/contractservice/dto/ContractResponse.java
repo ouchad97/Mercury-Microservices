@@ -1,5 +1,6 @@
 package com.mercuryservices.contractservice.dto;
 
+import com.mercuryservices.contractservice.model.Devis;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,5 +18,6 @@ public class ContractResponse {
     private Date datecreationContract;
     private String libelleContract;
 
+    private Devis devis;
 
 }

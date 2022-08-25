@@ -24,5 +24,9 @@ public class Contract {
     private Date datecreationContract;
     private String libelleContract;
 
+    /***Devis***/
+    @Transient
+    private Devis devis;
+    private String devisId;
 
 }
