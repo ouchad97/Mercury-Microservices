@@ -8,6 +8,7 @@
         <module>fiche-service</module>
         <module>discovery-server</module>
         <module>devis-service</module>
+        <module>contract-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
