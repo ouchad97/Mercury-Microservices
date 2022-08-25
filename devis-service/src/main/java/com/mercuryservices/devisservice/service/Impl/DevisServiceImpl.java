@@ -54,7 +54,6 @@ public class DevisServiceImpl implements DevisService {
         /***Fiche***/ //You can comment methode below to get just idfiche
         Fiche fiche = ficheRestClient.getFicheByFicheId(devisReq.getFicheId());
         devisReq.setFiche(fiche);
-
         return devisReq;
     }
 

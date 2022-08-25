@@ -16,6 +16,6 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <dependencies>
-        
+
     </dependencies>
 </project>
