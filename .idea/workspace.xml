@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd87ca2-c0a7-411b-a816-1da0f6476b1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/DevisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/ContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../microservices-parent/order-service" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices-parent/order-service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +72,11 @@
       <recent name="E:\sptringboot-microservices\zenith-services\fiche-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mercuryservices.contractservice.feign" />
       <recent name="com.mercuryservices.contractservice.service" />
       <recent name="com.mercuryservices.contractservice.repository" />
       <recent name="com.mercuryservices.contractservice.dto" />
       <recent name="com.mercuryservices.contractservice.model" />
-      <recent name="com.mercuryservices.contractservice" />
     </key>
   </component>
   <component name="RunDashboard">
