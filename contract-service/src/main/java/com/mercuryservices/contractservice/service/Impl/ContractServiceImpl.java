@@ -59,6 +59,7 @@ public class ContractServiceImpl implements ContractService {
         return contractReq;
     }
 
+    
     @Override
     public Contract updateContract(Contract contract, String contractId) {
         Contract contractEntity = contractRepository.findByContractId(contractId);
