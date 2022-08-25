@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd87ca2-c0a7-411b-a816-1da0f6476b1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/dto/ContractRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/dto/ContractRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../microservices-parent/order-service" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices-parent/order-service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

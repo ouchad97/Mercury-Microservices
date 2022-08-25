@@ -11,10 +11,11 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class ContractRequest {
+public class ContractResponse {
     private Long idContract;
     private String contractId;
     private Date datecreationContract;
     private String libelleContract;
+
 
 }
