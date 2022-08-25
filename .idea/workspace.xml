@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd87ca2-c0a7-411b-a816-1da0f6476b1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/service/Impl/DevisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/service/Impl/DevisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/FicheServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/FicheServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../microservices-parent/order-service" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices-parent/order-service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

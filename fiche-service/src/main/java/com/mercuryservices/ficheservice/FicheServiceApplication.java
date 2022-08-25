@@ -10,4 +10,5 @@ public class FicheServiceApplication {
 		SpringApplication.run(FicheServiceApplication.class, args);
 	}
 
+
 }
