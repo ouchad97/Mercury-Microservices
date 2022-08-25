@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3dd87ca2-c0a7-411b-a816-1da0f6476b1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../microservices-parent/order-service" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices-parent/order-service" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/sptringboot-microservices/mercury-services",
+    "last_opened_file_path": "E:/sptringboot-microservices/mercury-services/contract-service/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -66,6 +67,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\sptringboot-microservices\mercury-services\contract-service\src\main\resources" />
       <recent name="E:\sptringboot-microservices\zenith-services\devis-service\src\main\resources" />
       <recent name="E:\sptringboot-microservices\zenith-services\discovery-server" />
       <recent name="E:\sptringboot-microservices\zenith-services\fiche-service\src\main\resources" />
@@ -85,7 +87,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DevisService">
+  <component name="RunManager" selected="Application.ContractServiceApplication">
+    <configuration name="ContractServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mercuryservices.contractservice.ContractServiceApplication" />
+      <module name="contract-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mercuryservices.contractservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DevisService" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.mercuryservices.devisservice.DevisServiceApplication" />
       <module name="devis-service" />
@@ -139,12 +154,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ContractServiceApplication" />
       <item itemvalue="Application.DevisService" />
       <item itemvalue="Application.DiscoveryServer" />
       <item itemvalue="Application.FicheService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContractServiceApplication" />
         <item itemvalue="Application.DevisService" />
         <item itemvalue="Application.FicheService" />
         <item itemvalue="Application.DiscoveryServer" />

@@ -7,12 +7,18 @@ import com.mercuryservices.contractservice.model.Contract;
 import com.mercuryservices.contractservice.model.Devis;
 import com.mercuryservices.contractservice.repository.ContractRepository;
 import com.mercuryservices.contractservice.service.ContractService;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
+@RequiredArgsConstructor
+@Slf4j
 public class ContractServiceImpl implements ContractService {
     @Autowired
     DevisRestClient devisRestClient;
