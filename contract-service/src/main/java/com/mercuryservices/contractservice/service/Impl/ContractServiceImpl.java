@@ -47,7 +47,7 @@ public class ContractServiceImpl implements ContractService {
         ContractRequest contractReq = new ContractRequest();
         BeanUtils.copyProperties(contractEntity, contractReq);
 
-        /***Fiche***/ //You can comment methode below to get just iddevis
+        /***Devis***/ //You can comment methode below to get just iddevis
         Devis devis = devisRestClient.getDevisByDevisId(contractReq.getDevisId());
         contractReq.setDevis(devis);
         return contractReq;

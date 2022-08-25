@@ -14,6 +14,6 @@ public class Devis {
     private String libelleDevis;
 
     /***Fiche***/
-    private String ficheId;
+    private Fiche Fiche;
 
 }

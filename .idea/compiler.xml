@@ -16,7 +16,6 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Mercury-services" options="-parameters" />
       <module name="contract-service" options="-parameters" />
       <module name="devis-service" options="-parameters" />
       <module name="discovery-server" options="-parameters" />

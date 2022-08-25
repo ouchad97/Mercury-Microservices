@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3dd87ca2-c0a7-411b-a816-1da0f6476b1f" name="Changes" comment="">
+    <list default="true" id="d8ab347d-618b-48c9-9039-8da9d94e71c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/feign/DevisRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/feign/DevisRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Devis.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Devis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Fiche.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Fiche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../microservices-parent/order-service" beforeDir="false" afterPath="$PROJECT_DIR$/../microservices-parent/order-service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/feign/DevisRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/feign/DevisRestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/feign/FicheRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/feign/FicheRestClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/feign/FicheRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/feign/FicheRestClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/service/Impl/DevisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/service/Impl/DevisServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,38 +25,23 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/dto/DevisRequest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/dto/DevisResponse.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/feign/FicheRestClient.java" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/model/Devis.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/service/Impl/DevisServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/controller/FicheController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/service/FicheService.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/service/impl/FicheServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/fiche-service/src/main/resources/application.properties" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2DkS8SE0xpIK8z2UheRkPDbOdxj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2Dqzm7CATTarHFGX6BVyqpuapQE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,26 +50,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/sptringboot-microservices/mercury-services/contract-service/src/main/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "last_opened_file_path": "E:/sptringboot-microservices/mercury-services"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\sptringboot-microservices\mercury-services\contract-service\src\main\resources" />
-      <recent name="E:\sptringboot-microservices\zenith-services\devis-service\src\main\resources" />
-      <recent name="E:\sptringboot-microservices\zenith-services\discovery-server" />
-      <recent name="E:\sptringboot-microservices\zenith-services\fiche-service\src\main\resources" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.mercuryservices.contractservice.feign" />
-      <recent name="com.mercuryservices.contractservice.service" />
-      <recent name="com.mercuryservices.contractservice.repository" />
-      <recent name="com.mercuryservices.contractservice.dto" />
       <recent name="com.mercuryservices.contractservice.model" />
     </key>
   </component>
@@ -101,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DevisService" type="Application" factoryName="Application" temporary="true">
+    <configuration name="DevisServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mercuryservices.devisservice.DevisServiceApplication" />
       <module name="devis-service" />
       <extension name="coverage">
@@ -114,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscoveryServer" type="Application" factoryName="Application" temporary="true">
+    <configuration name="DiscoveryServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mercuryservices.discoveryserver.DiscoveryServerApplication" />
       <module name="discovery-server" />
       <extension name="coverage">
@@ -127,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FicheService" type="Application" factoryName="Application" temporary="true">
+    <configuration name="FicheServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mercuryservices.ficheservice.FicheServiceApplication" />
       <module name="fiche-service" />
       <extension name="coverage">
@@ -140,54 +118,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Mercury-services" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Mercury-services" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ContractServiceApplication" />
-      <item itemvalue="Application.DevisService" />
-      <item itemvalue="Application.DiscoveryServer" />
-      <item itemvalue="Application.FicheService" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ContractServiceApplication" />
-        <item itemvalue="Application.DevisService" />
-        <item itemvalue="Application.FicheService" />
-        <item itemvalue="Application.DiscoveryServer" />
+        <item itemvalue="Application.DevisServiceApplication" />
+        <item itemvalue="Application.FicheServiceApplication" />
+        <item itemvalue="Application.DiscoveryServerApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3dd87ca2-c0a7-411b-a816-1da0f6476b1f" name="Changes" comment="" />
-      <created>1661241455138</created>
+      <changelist id="d8ab347d-618b-48c9-9039-8da9d94e71c5" name="Changes" comment="" />
+      <created>1661441560942</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1661241455138</updated>
+      <updated>1661441560942</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
