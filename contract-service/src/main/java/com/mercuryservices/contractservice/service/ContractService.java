@@ -1,11 +1,11 @@
 package com.mercuryservices.contractservice.service;
 
 import com.mercuryservices.contractservice.dto.ContractRequest;
-import com.mercuryservices.contractservice.model.Contract; 
+import com.mercuryservices.contractservice.model.Contract;
 
 import java.util.List;
 
-public interface DevisService {
+public interface ContractService {
 
     Contract createContract(ContractRequest contractRequest, String devisId);
     ContractRequest findContractByContractId(String contractId);
