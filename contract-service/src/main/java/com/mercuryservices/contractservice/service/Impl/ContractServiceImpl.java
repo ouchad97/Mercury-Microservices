@@ -1,6 +1,7 @@
 package com.mercuryservices.contractservice.service.Impl;
 
 import com.mercuryservices.contractservice.dto.ContractRequest;
+import com.mercuryservices.contractservice.dto.ContractResponse;
 import com.mercuryservices.contractservice.feign.DevisRestClient;
 import com.mercuryservices.contractservice.model.Contract;
 import com.mercuryservices.contractservice.model.Devis;
@@ -59,7 +60,7 @@ public class ContractServiceImpl implements ContractService {
         return contractReq;
     }
 
-    
+
     @Override
     public Contract updateContract(Contract contract, String contractId) {
         Contract contractEntity = contractRepository.findByContractId(contractId);
@@ -76,6 +77,35 @@ public class ContractServiceImpl implements ContractService {
 
     @Override
     public void deleteContract(String contractId) {
+        Contract contractEntity = contractRepository.findByContractId(contractId);
+        if (contractEntity == null)
+            System.out.println("****** There is no contract with this id ******");
+        contractRepository.delete(contractEntity);
+    }
 
+    public List<ContractResponse> getAllContract(){
+        List<Contract> contractList = contractRepository.findAll();
+        return contractList.stream()
+                .map(this::mapToContractResponse)
+                .toList();
+    }
+
+    private ContractResponse mapToContractResponse(Contract contractEntity) {
+
+        /***Devis***/ //You can comment methode below to get just iddevis
+        Devis devisEnt = devisRestClient.getDevisByDevisId(contractEntity.getDevisId());
+        contractEntity.setDevis(devisEnt);
+        return ContractResponse.builder()
+                .idContract(contractEntity.getIdContract())
+                .contractId(contractEntity.getContractId())
+                .datecreationContract(contractEntity.getDatecreationContract())
+                .libelleContract(contractEntity.getLibelleContract())
+
+                /***Devis***/
+                //If you want get just devis ID enable this
+                //.devisId(contractEntity.getDevisId())
+                // Don't forget to comment List of devis below
+                .devis(devisEnt)
+                .build();
     }
 }
