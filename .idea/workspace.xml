@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8ab347d-618b-48c9-9039-8da9d94e71c5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/mercuryservices/apigateway/ApiGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/mercuryservices/apigateway/ApiGatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiche-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/FicheServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/FicheServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiche-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiche-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiche-service/target/classes/com/mercuryservices/ficheservice/FicheServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/target/classes/com/mercuryservices/ficheservice/FicheServiceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +78,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ApiGatewayApplication">
+  <component name="RunManager" selected="Application.FicheServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mercuryservices.apigateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -137,10 +146,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FicheServiceApplication" />
         <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.ContractServiceApplication" />
         <item itemvalue="Application.DevisServiceApplication" />
-        <item itemvalue="Application.FicheServiceApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
       </list>
     </recent_temporary>
