@@ -9,6 +9,7 @@
         <module>discovery-server</module>
         <module>devis-service</module>
         <module>contract-service</module>
+        <module>api-gateway</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

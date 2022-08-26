@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8ab347d-618b-48c9-9039-8da9d94e71c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/feign/DevisRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/feign/DevisRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Devis.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Devis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Fiche.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/model/Fiche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/service/Impl/ContractServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/feign/DevisRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/feign/DevisRestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/feign/FicheRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/feign/FicheRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/feign/FicheRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/feign/FicheRestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/service/Impl/DevisServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/service/Impl/DevisServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
