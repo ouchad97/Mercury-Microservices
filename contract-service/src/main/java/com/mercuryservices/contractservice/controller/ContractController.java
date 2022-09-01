@@ -44,9 +44,9 @@ public class ContractController {
 
         Contract contract = new Contract();
         BeanUtils.copyProperties(contractRequest, contract);
-        Contract udpateDevis = contractServiceImpl.updateContract(contract ,contractId);
+        Contract updateDevs = contractServiceImpl.updateContract(contract ,contractId);
         ContractResponse contractResponse = new ContractResponse();
-        BeanUtils.copyProperties(udpateDevis, contractResponse);
+        BeanUtils.copyProperties(updateDevs, contractResponse);
         return new ResponseEntity<ContractResponse>(contractResponse, HttpStatus.OK);
 
     }
