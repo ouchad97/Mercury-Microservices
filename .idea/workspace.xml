@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8ab347d-618b-48c9-9039-8da9d94e71c5" name="Changes" comment="A year on Mercury takes 88 Earth days.">
+    <list default="true" id="d8ab347d-618b-48c9-9039-8da9d94e71c5" name="Changes" comment="Mercury is one of the four terrestrial planets, meaning that like the Earth it is a rocky body.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/mercuryservices/apigateway/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/mercuryservices/apigateway/ApiGatewayApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/controller/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/src/main/java/com/mercuryservices/contractservice/controller/ContractController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/controller/ContractController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/controller/ContractController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/controller/ContractController.class" beforeDir="false" afterPath="$PROJECT_DIR$/contract-service/target/classes/com/mercuryservices/contractservice/controller/ContractController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/controller/DevisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/src/main/java/com/mercuryservices/devisservice/controller/DevisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/controller/DevisController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/controller/DevisController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/controller/DevisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/devis-service/target/classes/com/mercuryservices/devisservice/controller/DevisController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiche-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/controller/FicheController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/src/main/java/com/mercuryservices/ficheservice/controller/FicheController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiche-service/target/classes/com/mercuryservices/ficheservice/controller/FicheController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-service/target/classes/com/mercuryservices/ficheservice/controller/FicheController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662018043381</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mercury is one of the four terrestrial planets, meaning that like the Earth it is a rocky body.">
+      <created>1662105776517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662105776517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,6 +193,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A year on Mercury takes 88 Earth days." />
-    <option name="LAST_COMMIT_MESSAGE" value="A year on Mercury takes 88 Earth days." />
+    <MESSAGE value="Mercury is one of the four terrestrial planets, meaning that like the Earth it is a rocky body." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mercury is one of the four terrestrial planets, meaning that like the Earth it is a rocky body." />
   </component>
 </project>
