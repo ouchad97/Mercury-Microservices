@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+	import React from 'react';
 
-export default App;
+	import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+/**
+	*
+	* Components
+	*
+*/
+	import Header from './components/layouts/Header';
+
+/**
+	*
+	* Routes
+	*
+*/
+	import FormsPage       from './routes/Forms';
+	import FormProfilePage from './routes/FormProfile';
+	import FormCreatePage  from './routes/FormCreate';
+
+
+	function App(){
+
+		return(
+
+			<BrowserRouter>
+
+				<Header />
+
+				<div className="container py-2">
+
+					<Switch>
+
+						<Route exact path="/" children={ <FormsPage /> } />
+
+						<Route exact path="/Form/Create" children={ <FormCreatePage /> } />
+
+						<Route exact path="/Form/:id" render={ (props) => <FormProfilePage { ...props } /> } />
+
+					</Switch>
+
+				</div>
+
+			</BrowserRouter>
+
+		);
+	
+	}
+
+	export default App;
