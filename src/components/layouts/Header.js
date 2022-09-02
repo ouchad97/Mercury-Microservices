@@ -28,7 +28,7 @@
 
 						<div className="container">
 
-							<Link to="/" className="navbar-brand text-primary">Zénith Assurances</Link>
+							<Link to="/" className="navbar-brand text-primary">Micro Front</Link>
 
 							<Link to="/Form/Create" className="px-4 btn btn-success">Nouvelle Fiche</Link>
 
