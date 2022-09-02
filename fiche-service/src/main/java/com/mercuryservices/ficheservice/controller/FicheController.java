@@ -5,13 +5,18 @@ import com.mercuryservices.ficheservice.dto.FicheRequest;
 import com.mercuryservices.ficheservice.dto.FicheResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/fiche")
 @RequiredArgsConstructor
 public class FicheController {
@@ -38,6 +43,7 @@ public class FicheController {
         FicheRequest ficheReq = ficheServiceImpl.findFicheByFicheId(ficheId);
         FicheResponse ficheResponse = new FicheResponse();
         BeanUtils.copyProperties(ficheReq, ficheResponse);
+
         return new ResponseEntity<FicheResponse>(ficheResponse, HttpStatus.OK);
 
     }

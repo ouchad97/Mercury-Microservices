@@ -17,6 +17,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/devis")
 @RequiredArgsConstructor
 public class DevisController {

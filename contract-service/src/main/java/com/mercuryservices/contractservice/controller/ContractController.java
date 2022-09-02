@@ -17,6 +17,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/contract")
 @RequiredArgsConstructor
 public class ContractController {
@@ -33,10 +34,9 @@ public class ContractController {
         Contract createContract = contractServiceImpl.createContract(contract, contractRequest.getDevisId());
         ContractResponse contractResponse = new ContractResponse();
         BeanUtils.copyProperties(createContract, contractResponse);
+
         return new ResponseEntity<ContractResponse>(contractResponse, HttpStatus.OK);
-
     }
-
 
     /** Update contract **/
     @PutMapping(path = "/{contractId}")
@@ -47,8 +47,8 @@ public class ContractController {
         Contract updateDevs = contractServiceImpl.updateContract(contract ,contractId);
         ContractResponse contractResponse = new ContractResponse();
         BeanUtils.copyProperties(updateDevs, contractResponse);
-        return new ResponseEntity<ContractResponse>(contractResponse, HttpStatus.OK);
 
+        return new ResponseEntity<ContractResponse>(contractResponse, HttpStatus.OK);
     }
 
     /** Get contract by ID **/
@@ -58,21 +58,19 @@ public class ContractController {
         ContractRequest contractReq = contractServiceImpl.findContractByContractId(contractId);
         ContractResponse contractResponse = new ContractResponse();
         BeanUtils.copyProperties(contractReq, contractResponse);
+
         return new ResponseEntity<ContractResponse>(contractResponse, HttpStatus.OK);
-
     }
-
     /** Get contract by devisId **/
     @GetMapping(path = "/devis/{devisId}")
     public ResponseEntity<List<ContractResponsebyDevis>> findContractByDevisId(@PathVariable String devisId) {
 
         List<ContractRequest> contractReq = contractServiceImpl.findContractByDevisId(devisId);
-
         Type listType = new TypeToken<List<ContractResponsebyDevis>>() {
         }.getType();
         List<ContractResponsebyDevis> contractResponsebyDevis = new ModelMapper().map(contractReq, listType);
-        return new ResponseEntity<List<ContractResponsebyDevis>>(contractResponsebyDevis, HttpStatus.OK);
 
+        return new ResponseEntity<List<ContractResponsebyDevis>>(contractResponsebyDevis, HttpStatus.OK);
     }
 
     /** Get all contract **/
