@@ -1,0 +1,17 @@
+com\mercuryservices\contractservice\dto\ContractRequest$ContractRequestBuilder.class
+com\mercuryservices\contractservice\feign\DevisRestClient.class
+com\mercuryservices\contractservice\service\ContractService.class
+com\mercuryservices\contractservice\dto\ContractResponse$ContractResponseBuilder.class
+com\mercuryservices\contractservice\repository\ContractRepository.class
+com\mercuryservices\contractservice\dto\ContractRequest.class
+com\mercuryservices\contractservice\model\Contract.class
+com\mercuryservices\contractservice\ContractServiceApplication.class
+com\mercuryservices\contractservice\dto\ContractResponse.class
+com\mercuryservices\contractservice\controller\ContractController$1.class
+com\mercuryservices\contractservice\controller\ContractController.class
+com\mercuryservices\contractservice\dto\ContractResponsebyDevis$ContractResponsebyDevisBuilder.class
+com\mercuryservices\contractservice\service\Impl\ContractServiceImpl.class
+com\mercuryservices\contractservice\dto\ContractResponsebyDevis.class
+com\mercuryservices\contractservice\model\Contract$ContractBuilder.class
+com\mercuryservices\contractservice\model\Fiche.class
+com\mercuryservices\contractservice\model\Devis.class

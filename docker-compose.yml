@@ -1,0 +1,113 @@
+version: "2.2"
+services:
+  mysqldb:
+    container_name: mysqldb
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'fiche-service'
+      # So you don't have to use root, but you can if you like
+      MYSQL_USER: 'sa'
+      # You can use whatever password you like
+      MYSQL_PASSWORD: '1234'
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: '1234'
+    ports:
+      # <Port exposed> : < MySQL Port running inside container>
+      - '3306:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    networks:
+      - emp-network
+
+  api-gateway:
+    container_name: api-gateway
+    build:
+      context: .
+      dockerfile: api-gateway\Dockerfile-api-gateway
+    image: api-gateway:latest
+    expose:
+      - 8080
+    ports:
+      - 8080:8080
+    networks:
+      - emp-network
+
+  discovery-service:
+    container_name: discovery-service
+    build:
+      context: .
+      dockerfile: discovery-server\Dockerfile-discovery-service
+    image: discovery-service:latest
+    expose:
+      - 8761
+    ports:
+      - 8761:8761
+    networks:
+      - emp-network
+
+  fiche-service:
+    container_name: fiche-service
+    build:
+      context: .
+      dockerfile: fiche-service\Dockerfile-fiche-service
+    image: fiche-service:latest
+    expose:
+      - 8081
+    ports:
+      - 8081:8081
+    networks:
+      - emp-network
+    links:
+      - api-gateway:api-gateway
+      - discovery-service:discovery-service
+    depends_on:
+      - api-gateway
+      - discovery-service
+
+  devis-service:
+    container_name: devis-service
+    build:
+      context: .
+      dockerfile: devis-service\Dockerfile-devis-service
+    image: devis-service:latest
+    expose:
+      - 8082
+    ports:
+      - 8082:8082
+    networks:
+      - emp-network
+    links:
+      - api-gateway:api-gateway
+      - discovery-service:discovery-service
+    depends_on:
+      - api-gateway
+      - discovery-service
+
+  contract-service:
+    container_name: contract-service
+    build:
+      context: .
+      dockerfile: contract-service\Dockerfile-contract-service
+    image: contract-service:latest
+    expose:
+      - 8083
+    ports:
+      - 8083:8083
+    networks:
+      - emp-network
+    links:
+      - api-gateway:api-gateway
+      - discovery-service:discovery-service
+    depends_on:
+      - api-gateway
+      - discovery-service
+
+networks:
+  emp-network:
+    driver: bridge
+volumes:
+  config-repo:
+    external: true

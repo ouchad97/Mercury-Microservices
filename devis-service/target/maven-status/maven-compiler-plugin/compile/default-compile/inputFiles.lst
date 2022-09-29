@@ -1,0 +1,11 @@
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\DevisServiceApplication.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\dto\DevisResponse.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\model\Devis.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\service\DevisService.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\controller\DevisController.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\feign\FicheRestClient.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\dto\DevisResponsebyFiche.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\model\Fiche.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\service\Impl\DevisServiceImpl.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\dto\DevisRequest.java
+E:\sptringboot-microservices\mercury-services\devis-service\src\main\java\com\mercuryservices\devisservice\repository\DevisRepository.java

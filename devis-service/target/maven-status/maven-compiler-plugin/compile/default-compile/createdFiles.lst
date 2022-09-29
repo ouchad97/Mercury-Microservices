@@ -1,0 +1,16 @@
+com\mercuryservices\devisservice\service\DevisService.class
+com\mercuryservices\devisservice\dto\DevisResponsebyFiche$DevisResponsebyFicheBuilder.class
+com\mercuryservices\devisservice\dto\DevisResponse$DevisResponseBuilder.class
+com\mercuryservices\devisservice\model\Devis$DevisBuilder.class
+com\mercuryservices\devisservice\controller\DevisController.class
+com\mercuryservices\devisservice\feign\FicheRestClient.class
+com\mercuryservices\devisservice\dto\DevisRequest$DevisRequestBuilder.class
+com\mercuryservices\devisservice\controller\DevisController$1.class
+com\mercuryservices\devisservice\service\Impl\DevisServiceImpl.class
+com\mercuryservices\devisservice\dto\DevisResponsebyFiche.class
+com\mercuryservices\devisservice\repository\DevisRepository.class
+com\mercuryservices\devisservice\model\Fiche.class
+com\mercuryservices\devisservice\dto\DevisResponse.class
+com\mercuryservices\devisservice\dto\DevisRequest.class
+com\mercuryservices\devisservice\model\Devis.class
+com\mercuryservices\devisservice\DevisServiceApplication.class

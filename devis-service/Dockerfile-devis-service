@@ -1,0 +1,4 @@
+FROM openjdk:17
+ADD devis-service/target/devis-service.jar devis-service.jar
+EXPOSE 8082
+ENTRYPOINT ["java", "-jar", "devis-service.jar"]

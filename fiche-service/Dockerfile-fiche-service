@@ -1,0 +1,4 @@
+FROM openjdk:17
+ADD fiche-service/target/fiche-service.jar fiche-service.jar
+EXPOSE 8081
+ENTRYPOINT ["java", "-jar", "fiche-service.jar"]

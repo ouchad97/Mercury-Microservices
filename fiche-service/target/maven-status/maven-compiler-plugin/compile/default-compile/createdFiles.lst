@@ -1,0 +1,13 @@
+com\mercuryservices\ficheservice\model\Fiche$FicheBuilder.class
+com\mercuryservices\ficheservice\dto\FicheResponse.class
+com\mercuryservices\ficheservice\repository\FicheRepository.class
+com\mercuryservices\ficheservice\service\impl\FicheServiceImpl.class
+com\mercuryservices\ficheservice\dto\FicheResponse$FicheResponseBuilder.class
+com\mercuryservices\ficheservice\FicheServiceApplication.class
+com\mercuryservices\ficheservice\controller\FicheController.class
+com\mercuryservices\ficheservice\security\WebSecurity.class
+com\mercuryservices\ficheservice\model\Fiche.class
+com\mercuryservices\ficheservice\service\FicheService.class
+com\mercuryservices\ficheservice\dto\FicheRequest$FicheRequestBuilder.class
+com\mercuryservices\ficheservice\Utils\Utils.class
+com\mercuryservices\ficheservice\dto\FicheRequest.class

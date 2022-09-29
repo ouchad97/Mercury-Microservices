@@ -21,4 +21,8 @@
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>discovery-server</finalName>
+    </build>
 </project>

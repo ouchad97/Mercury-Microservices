@@ -1,0 +1,4 @@
+FROM openjdk:17
+ADD contract-service/target/contract-service.jar contract-service.jar
+EXPOSE 8083
+ENTRYPOINT ["java", "-jar", "contract-service.jar"]
